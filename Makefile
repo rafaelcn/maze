@@ -6,7 +6,7 @@ EXECD=maze_debug
 LIBS=-lGL -lGLU -lglfw -lm
 
 all:
-	$(GCC) $(FLAGS) $(FILES) -o $(EXEC) $(LIBS)
+	$(GCC) $(FLAGS) $(FILES) -o bin/$(EXEC) $(LIBS)
 
 debug:
-	$(GCC) $(FLAGS) -g -DDEBUG $(FILES) -o $(EXECD) $(LIBS)
+	$(GCC) $(FLAGS) -g -DDEBUG $(FILES) -o bin/$(EXECD) $(LIBS)
