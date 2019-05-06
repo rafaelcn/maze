@@ -1,6 +1,6 @@
 GCC=gcc
 FLAGS=-Wall -pedantic -std=c11
-FILES=*.c
+FILES=src/*.c
 EXEC=maze
 EXECD=maze_debug
 LIBS=-lGL -lGLU -lglfw -lm
